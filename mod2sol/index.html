@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width , initial-scale=1">
+	<title>New Assignment</title>
+<style>
+
+	* {
+		box-sizing : border-box; 
+		
+	}
+
+	h1 {
+		text-align : center;
+		color : blue ;
+		font-size: 20px;
+	}
+
+	p {
+		
+		border : 1px solid black;
+		margin: 10px;
+		
+		background-color: gray;
+		padding: 10px;
+
+				
+	}	
+	/*.p1 {
+		border: 1px solid black;
+		background-color: orange;
+		text-align: right;
+		padding: 10px;
+	}*/
+
+	/*h3 {
+
+		background-color: orange;
+		height: 10px;
+		width: 10px;
+	}*/
+
+	#p1 {
+		position: relative;
+		background-color: brown;
+		padding: 10px;
+		left: 10px;
+		top: -10px;
+		margin-bottom: 15px;
+		float: right;
+	}
+
+	#p2 {
+		position: relative;
+		background-color: purple;
+		padding: 10px;
+		left:10px;
+		top: -10px;
+		margin-bottom: 15px;
+		float: right;
+	}
+
+	#p3 {
+		position: relative;
+		background-color: orange;
+		padding: 10px;
+		left:10px;
+		top: -10px;
+		margin-bottom: 15px;
+		float: right;
+	}
+
+	.row {
+		width: 100%;
+
+	}
+
+	@media(min-width: 992px) {
+		.col-lg-4 {
+			float: left;
+			/*border : 1px solid black;*/
+		}
+
+		.col-lg-4{
+			width: 33%;
+		}
+
+	}
+	
+
+	@media(min-width: 768px) and (max-width: 991px) {
+		.col-md-6 , .col-md-12{
+			float: left;
+			/*border: 1px solid black;*/
+		}
+		.col-md-6 {
+			width: 50%;
+		}
+		.col-md-12 {
+			width: 100%;
+		}
+
+
+	}
+
+	/*@media(max-width: 767px){
+		.col-md-12{
+			float: left;
+			border: 1px solid black;
+		}
+		.col-md-12 {
+			width: 100%;
+		}
+
+	}*/
+
+</style>
+</head>
+<body>
+<h1> Our head </h1>
+<div class="row">
+  <div class="col-lg-4 col-md-6"><p><span id="p1">hen</span><br>hellooooooooooooooooooo there how are you people doing ? is everything in good shape? take care you all. hellooooooooooooooooooo there how are you people doing ? is everything in good shape? take care you all</p></div>
+  <div class="col-lg-4 col-md-6"><p><span id="p2">dog</span><br>hellooooooooooooooooooo there how are you people doing ? is everything in good shape? take care you all. hellooooooooooooooooooo there how are you people doing ? is everything in good shape? take care you all</p></div>
+  <div class="col-lg-4 col-md-6 col-md-12"><p><span id="p3">cat</span><br>hellooooooooooooooooooo there how are you people doing ? is everything in good shape? take care you all. hellooooooooooooooooooo there how are you people doing ? is everything in good shape? take care you all</p></div>
+</div>
+</body>
+</html>
